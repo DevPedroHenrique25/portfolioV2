@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faCode, faLightbulb, faArrowTrendUp,faGlobe,faGear,faDatabase,faWrench } from "@fortawesome/free-solid-svg-icons";
 import devforge from "../assets/devforge.jpg"
 import lb from "../assets/lp.png"
-import portifolio from "../assets/Portifolio.jpg"
+import portifolio from "../assets/portifolio.jpg"
 import { faAlgolia,faReact,faJs,faPhp,faGitAlt,faGithub,faSearchengin,faWhatsapp,faLinkedin,faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 
 
