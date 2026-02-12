@@ -18,7 +18,7 @@ export default function Home(){
                     <h1>Desenvolvimento de Sites <br /> e Sistemas Web Modernos</h1>
                     <p>Soluções web sob medida, com foco em performance, segurança, organização e crescimento do seu negócio</p>  
                     <div style={{marginTop:"30px"}} className="btns-home">
-                        <div className="orcamento"><a href="">Solicitar Orçamento </a></div>
+                        <div className="orcamento"><a href="https://wa.me/5524992129512">Solicitar Orçamento </a></div>
                         <div className="see-projetos"><a href="#projetos">Ver Projetos</a></div>
                     </div>
                      <div className="arrow"><FontAwesomeIcon style={{color:"white"}} icon={faArrowDown} /></div>
