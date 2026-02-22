@@ -119,7 +119,7 @@ export default function Home(){
 
                     <div className="projeto-single">
                         <div style={{ backgroundImage: `url(${systech})` }}  className="img-projeto"></div>
-                        <h3>SysTech - (Em desenvolvimento)</h3>
+                        <h3>SysTech (Em desenvolvimento)</h3>
                         <p>Plataforma completa de gestão para restaurantes, projetada para automatizar processos, organizar operações e proporcionar controle eficiente com interface moderna e responsiva.</p>
                         <span>JavaScript</span>
                         <span>Tailwind CSS</span>
