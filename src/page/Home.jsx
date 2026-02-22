@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faCode, faLightbulb, faArrowTrendUp,faGlobe,faGear,faDatabase,faWrench } from "@fortawesome/free-solid-svg-icons";
 import devforge from "../assets/devforge.jpg"
 import lb from "../assets/lp.png"
+import systech from "../assets/systech.png"
 import portifolio from "../assets/portifolio.jpg"
 import { faAlgolia,faReact,faJs,faPhp,faGitAlt,faGithub,faSearchengin,faWhatsapp,faLinkedin,faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -97,7 +98,7 @@ export default function Home(){
                         <span>Swiper js</span>
                         <span>CSS3</span>
 
-                        <div style={{marginTop:"30px"}} className="btns-home">
+                        <div className="btns-home">
                             <div className="orcamento"><a target="_blank" href="https://dev-forge-ebon.vercel.app/">Ver Detalhes</a></div>
                         </div>
                     </div>{/*projto-single*/}
@@ -110,22 +111,39 @@ export default function Home(){
                         <span>JavaScript</span>
                         <span>CSS3</span>
 
-                        <div style={{marginTop:"30px"}} className="btns-home">
+                        <div className="btns-home">
                             <div className="orcamento"><a target="_blank" href="https://devpedrohenrique25.github.io/Empresa-Marketing-Site/">Ver Detalhes</a></div>
+                        </div>
+                    </div>{/*projto-single*/}
+
+
+                    <div className="projeto-single">
+                        <div style={{ backgroundImage: `url(${systech})` }}  className="img-projeto"></div>
+                        <h3>SysTech - (Em desenvolvimento)</h3>
+                        <p>Plataforma completa de gestão para restaurantes, projetada para automatizar processos, organizar operações e proporcionar controle eficiente com interface moderna e responsiva.</p>
+                        <span>JavaScript</span>
+                        <span>Tailwind CSS</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+
+                        <div className="btns-home">
+                            <div className="orcamento"><a target="_blank" href="https://systech.pt/">Ver Detalhes</a></div>
                         </div>
                     </div>{/*projto-single*/}
 
 
                      <div className="projeto-single">
                         <div style={{ backgroundImage: `url(${portifolio})` }}  className="img-projeto"></div>
-                        <h3>Portifólio</h3>
+                        <h3>Portfólio</h3>
                         <p>Portfólio pessoal desenvolvido para apresentar projetos e habilidades de forma estratégica, com design responsivo e carregamento rápido.</p>
-                        <span>React</span>
-                        <span>JavaScript</span>
-                        <span>CSS3</span>
-                        <span>AOS js</span>
+                        <div className="techs">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>CSS3</span>
+                            <span>AOS js</span>
+                        </div>
 
-                        <div style={{marginTop:"30px"}} className="btns-home">
+                        <div className="btns-home">
                             <div className="orcamento"><a target="_blank" href="https://devpedrohenrique25.github.io/Portifolio/">Ver Detalhes</a></div>
                         </div>
                     </div>{/*projto-single*/}

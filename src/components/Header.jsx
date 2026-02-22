@@ -30,7 +30,7 @@ export default function Header() {
     }
   }
 
-   const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
