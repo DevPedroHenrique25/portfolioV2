@@ -19,7 +19,7 @@ export default function Home(){
                     <h1>Desenvolvimento de Sites <br /> e Sistemas Web Modernos</h1>
                     <p>Soluções web sob medida, com foco em performance, segurança, organização e crescimento do seu negócio</p>  
                     <div style={{marginTop:"30px"}} className="btns-home">
-                        <div className="orcamento"><a href="https://wa.me/5524992129512">Solicitar Orçamento </a></div>
+                        <div className="orcamento"><a href="https://wa.me/5524992127525">Solicitar Orçamento </a></div>
                         <div className="see-projetos"><a href="#projetos">Ver Projetos</a></div>
                     </div>
                      <div className="arrow"><FontAwesomeIcon style={{color:"white"}} icon={faArrowDown} /></div>
@@ -210,7 +210,7 @@ export default function Home(){
 
                 <div className="btn-single">
                     <div style={{backgroundColor:"oklch(62.7% 0.194 149.214)"}} className="icon-contato"><FontAwesomeIcon style={{fontSize:"40px",color:"white"}} icon={faWhatsapp}/></div>
-                    <a href="https://wa.me/5524992129512"target="_blank"rel="noopener noreferrer">WhatsApp</a>
+                    <a href="https://wa.me/5524992127525"target="_blank"rel="noopener noreferrer">WhatsApp</a>
                 </div>{/*Btn-single*/}
 
                 <div className="btn-single">
@@ -230,7 +230,7 @@ export default function Home(){
 
                   {/* Botão WhatsApp Flutuante */}
       <a 
-        href="https://wa.me/5524992129512"
+        href="https://wa.me/5524992127525"
         target="_blank" 
         rel="noopener noreferrer"
         className="whatsapp-float"
